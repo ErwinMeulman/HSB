@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BTLx xmlns="http://www.design2machine.com" Language="de" Version="1.1" xsi:schemaLocation="http://www.design2machine.com http://www.design2machine.com/btlx/btlx_11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <FileHistory >
+     <InitialExportProgram Comment="" FileName="J:/03 Auftraege/Auftraege_Intrexx/2015_50.0738.100/07 Konstruktion/160304_IW007_107.btlx" UserName="dannenbergerc" ComputerName="WSW7PDANNEN" Date="2016-03-04" CompanyName="cadwork informatik Software GmbH" Time="15:22:42" ProgramName="cadwork 3d" ProgramVersion="22.0.390" />
+	<EditingProgram CompanyName="ROB Technologies" ComputerName="DESKTOP-B30SA4U" Date="2020-08-26" FileName="C:/Program Files (x86)/BTLxEditor/btl/160304_IW007_107.btlx" ProgramName="BTLxEditor" ProgramVersion="1.5.1" Time="20:32:48" UserName="PowerUser" />
+</FileHistory>
+   <Project Architect="Lorenzo Guetg" Comment="&#10;Kalkulator: Andreas Bickel&#10;Projektleiter: Paul-Andr&#233; Ansel&#10;PL Holzbau: Christian Boysen&#10;" Customer="bau_Firma" Editor="FrB" GUID="{2007CAED-2D1C-4964-9587-111B0E9377F7}" ListName="" Name="Muttenz - Schulpavillon" Number="50.0738.100" Section="" SourceFile="J:\03 Auftraege\Auftraege_Intrexx\2015_50.0738.100\07 Konstruktion\50.0738.100_3D.3d" >
+<Parts>
+<Part Storey="1. OG" OrderNumber="0" Count="1" Weight="0.09820800090137548" ElementNumber="IW 108" Designation="Pfosten" Material="DUO NSi C24" Length="2727.999999999995" Height="120.0000011014163" Width="59.99999999998533" AssemblyNumber="" Layer="0" SingleMemberNumber="336" Group="IW 108" >
+     <Transformations>
+          <Transformation GUID="{130D45CE-7246-45E8-A4B8-B7B0F5908D66}">
+               <Position>
+                    <ReferencePoint Z="3573.000000000031" X="12352.50000132703" Y="902.5000007517951" />
+                    <XVector Z="1" X="0" Y="0" />
+                    <YVector Z="0" X="-1" Y="0" />
+               </Position>
+          </Transformation>
+          <Transformation GUID="{E402794C-5D63-4186-84E5-8E741A90BB6F}">
+               <Position>
+                    <ReferencePoint Z="3573.000000000033" X="11962.50000011713" Y="5444.999999798958" />
+                    <XVector Z="1" X="0" Y="0" />
+                    <YVector Z="0" X="0" Y="-1" />
+               </Position>
+          </Transformation>
+          <Transformation GUID="{2AC7B9D6-D411-4BFB-87BA-3E1BD24DCF98}">
+               <Position>
+                    <ReferencePoint Z="3573.000000000033" X="11962.50000011713" Y="3754.999999798958" />
+                    <XVector Z="1" X="0" Y="0" />
+                    <YVector Z="0" X="0" Y="-1" />
+               </Position>
+          </Transformation>
+          <Transformation GUID="{318DBCBB-A826-422B-BE1D-736E94E95C38}">
+               <Position>
+                    <ReferencePoint Z="3573.000000000033" X="11962.50000011713" Y="2064.999999798958" />
+                    <XVector Z="1" X="0" Y="0" />
+                    <YVector Z="0" X="0" Y="-1" />
+               </Position>
+          </Transformation>
+     </Transformations>
+     <UserAttributes>
+          <UserAttribute Value="IW" Name="Element-Typ" />
+          <UserAttribute Value="Konstruktion" Name="Bestellungen" />
+          <UserAttribute Value="Abbund" Name="Abbund" />
+          <UserAttribute Value="01 Produktion" Name="Mat. Lieferort" />
+          <UserAttribute Value="Bestellt" Name="User10" />
+     </UserAttributes>
+     <Colour Red="0" Green="255" Blue="0" Transparency="100" />
+     <Processings>
+          <JackRafterCut ReferencePlaneID="1" Name="Abschnitt" Process="yes">
+               <Orientation>start</Orientation>
+               <StartX>0</StartX>
+               <StartY>0</StartY>
+               <StartDepth>0</StartDepth>
+               <Angle>90</Angle>
+               <Inclination>90</Inclination>
+          </JackRafterCut>
+          <JackRafterCut ReferencePlaneID="1" Name="Abschnitt" Process="yes">
+               <Orientation>end</Orientation>
+               <StartX>2728</StartX>
+               <StartY>0</StartY>
+               <StartDepth>0</StartDepth>
+               <Angle>90</Angle>
+               <Inclination>90</Inclination>
+          </JackRafterCut>
+     </Processings>
+</Part>
+</Parts>
+<Composites>
+<Layers>
+<Layer OrderNumber="0" Count="1" ElementNumber="IW 108" Designation="Tragschicht" Length="6692.500000751828" Height="120.0000011015" Width="2847.999999999997" Layer="0" SingleMemberNumber="3000635" >
+     <Transformations>
+          <Transformation GUID="{87F5902F-8C97-42B5-A4CF-5D56B48E44CB}">
+               <Position>
+                    <ReferencePoint Z="3513.000000000034" X="12352.50000132703" Y="294.9999999999903" />
+                    <XVector Z="-2.71795204085396e-016" X="1.902566428597772e-015" Y="1" />
+                    <YVector Z="-5.171084307467545e-031" X="-1" Y="1.902566428597772e-015" />
+               </Position>
+          </Transformation>
+     </Transformations>
+     <PartRefs>
+          <PartRef GUID="{130D45CE-7246-45E8-A4B8-B7B0F5908D66}">
+               <Position>
+                    <ReferencePoint Z="59.99999999999698" X="607.5000007518069" Y="0" />
+                    <XVector Z="1" X="0" Y="0" />
+                    <YVector Z="0" X="0" Y="1" />
+               </Position>
+          </PartRef>
+     </PartRefs>
+</Layer><Layer OrderNumber="1" Count="1" ElementNumber="IW 108" Designation="Bundseitenschicht 1" Length="6662.500000123185" Height="14.99999919568109" Width="2838.000000000063" Layer="1" SingleMemberNumber="3000636" >
+     <Transformations>
+          <Transformation GUID="{C57BAB32-49B7-42F3-BFD9-30CDEE7D8958}">
+               <Position>
+                    <ReferencePoint Z="3517.99999994331" X="12367.49999982344" Y="309.9999998768563" />
+                    <XVector Z="-2.730190474314783e-016" X="1.911133332020348e-015" Y="1" />
+                    <YVector Z="-5.217758018227427e-031" X="-1" Y="1.911133332020348e-015" />
+               </Position>
+          </Transformation>
+     </Transformations>
+     <Processings>
+          <SawContour ReferencePlaneID="1" ToolID="1" ToolPosition="right" Name="Sägelinie" Process="yes">
+               <Contour Inclination="0" DepthBounded="no">
+                    <StartPoint Z="8.565675670979545e-007" X="9.094947001359134e-013" Y="2.483093771220213e-028" />
+                    <Line Recess="passOverAll">
+                         <EndPoint Z="5.456968210637569e-012" X="6662.500000123187" Y="4.547473508864641e-013" />
+                    </Line>
+                    <Line Recess="passOverAll">
+                         <EndPoint Z="5.456968210637568e-012" X="6662.500000123186" Y="2838.000000000064" />
+                    </Line>
+                    <Line Recess="passOverAll">
+                         <EndPoint Z="8.565675670979545e-007" X="1.346666435253609e-013" Y="2838.000000000062" />
+                    </Line>
+                    <Line Recess="passOverAll">
+                         <EndPoint Z="8.565675670979545e-007" X="9.094947001359134e-013" Y="2.483093771220213e-028" />
+                    </Line>
+               </Contour>
+          </SawContour>
+          <Drilling ReferencePlaneID="1" Name="Bohrung" Process="yes">
+               <StartX>420</StartX>
+               <StartY>2743</StartY>
+               <Angle>0</Angle>
+               <Inclination>90</Inclination>
+               <DepthLimited>yes</DepthLimited>
+               <Depth>17</Depth>
+               <Diameter>63</Diameter>
+          </Drilling>
+          <Drilling ReferencePlaneID="1" Name="Bohrung" Process="yes">
+               <StartX>210</StartX>
+               <StartY>2743</StartY>
+               <Angle>0</Angle>
+               <Inclination>90</Inclination>
+               <DepthLimited>yes</DepthLimited>
+               <Depth>17</Depth>
+               <Diameter>40</Diameter>
+          </Drilling>
+          <Drilling ReferencePlaneID="1" Name="Bohrung" Process="yes">
+               <StartX>280</StartX>
+               <StartY>2743</StartY>
+               <Angle>0</Angle>
+               <Inclination>90</Inclination>
+               <DepthLimited>yes</DepthLimited>
+               <Depth>17</Depth>
+               <Diameter>40</Diameter>
+          </Drilling>
+          <Drilling ReferencePlaneID="1" Name="Bohrung" Process="yes">
+               <StartX>350</StartX>
+               <StartY>2743</StartY>
+               <Angle>0</Angle>
+               <Inclination>90</Inclination>
+               <DepthLimited>yes</DepthLimited>
+               <Depth>17</Depth>
+               <Diameter>63</Diameter>
+          </Drilling>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999995075283" X="587.5000008749456" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999992294933" X="1393.803980272893" Y="2810.500000028389" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999994779406" X="1523.803980272895" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999999818988" X="1787.500000874946" Y="2810.500000028389" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999995075283" X="587.5000008749464" Y="27.50000002836093" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999999818988" X="1787.500000874947" Y="27.50000002836126" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999994884168" X="577.5000008749435" Y="80.0000000567217" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999994884168" X="577.5000008749427" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.00100000000000101" X="1797.500000874951" Y="80.00000005672204" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.00100000000000101" X="1797.500000874951" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999988352189" X="1187.500000874949" Y="80.00000005672187" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.0009999999988352189" X="1187.500000874948" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000251505" X="24.99999999999992" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999994119715" X="537.5000008749449" Y="2810.500000028389" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000251505" X="25.00000000000068" Y="27.50000002836078" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999994119715" X="537.5000008749457" Y="27.50000002836092" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999994310829" X="547.5000008749507" Y="80.0000000567217" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999994310829" X="547.5000008749499" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000246727" X="22.50000006156055" Y="80.00000005672155" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.001000000000246727" X="22.50000006155982" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000515242" X="162.9999993714067" Y="2648.000000056644" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.0009999999993546376" X="507.5000008749549" Y="2648.000000056644" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999999682479" X="5587.500000874947" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.001000000000155948" X="6637.500000123185" Y="2810.50000002839" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999999682479" X="5587.500000874949" Y="27.5000000283623" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.001000000000155948" X="6637.500000123186" Y="27.50000002836259" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000026947" X="6569.99999863934" Y="80.00000005672243" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.001000000000026947" X="6569.999998639339" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999999491366" X="5577.500000874945" Y="80.00000005672216" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999999491366" X="5577.500000874944" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999992959384" X="6187.500000874949" Y="80.00000005672369" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.0009999999992959384" X="6187.500000874949" Y="2758.000000056714" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000077455" X="1837.500000874945" Y="2810.50000002839" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999987328368" X="3037.500000874945" Y="2810.500000028391" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000077455" X="1837.500000874947" Y="27.50000002836127" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999987328368" X="3037.500000874946" Y="27.5000000283616" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.000999999998751948" X="3047.500000874951" Y="80.00000005672239" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.000999999998751948" X="3047.50000087495" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.000999999999405146" X="2437.500000874949" Y="80.00000005672221" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.000999999999405146" X="2437.500000874948" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000058344" X="1827.500000874944" Y="80.00000005672204" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.001000000000058344" X="1827.500000874944" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999988283934" X="3087.500000874945" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999993027639" X="4287.500000874944" Y="2810.500000028389" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999988283934" X="3087.500000874949" Y="27.50000002836162" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999993027639" X="4287.500000874947" Y="27.50000002836194" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999993218754" X="4297.50000087495" Y="80.00000005672182" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999993218754" X="4297.500000874949" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999999750734" X="3687.500000874948" Y="80.00000005672301" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.0009999999999750734" X="3687.500000874947" Y="2758.000000056713" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999988092819" X="3077.500000874944" Y="80.00000005672239" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999988092819" X="3077.500000874944" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999993983207" X="4337.500000874945" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.001000000000232156" X="4773.803980272893" Y="2810.500000028389" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000480603" X="4903.8039802729" Y="2810.500000028389" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999998726913" X="5537.500000874947" Y="2810.500000028389" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999993983207" X="4337.500000874946" Y="27.50000002836287" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999998726913" X="5537.500000874948" Y="27.5000000283632" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999993792093" X="4327.500000874943" Y="80.00000005672182" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999993792093" X="4327.500000874942" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999998918025" X="5547.500000874954" Y="80.00000005672216" />
+                    <Line NailSpacing="70">
+                         <EndPoint Z="0.0009999999998918025" X="5547.500000874953" Y="2758.000000056716" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.001000000000545001" X="4937.500000874949" Y="80.00000005672335" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.001000000000545001" X="4937.500000874948" Y="2758.000000056714" />
+                    </Line>
+               </Contour>
+          </NailContour>
+          <NailContour ReferencePlaneID="1" ToolID="10" Name="Nagelreihe" Process="yes">
+               <Contour>
+                    <StartPoint Z="0.0009999999988980133" X="5027.500001425648" Y="80.00000005672202" />
+                    <Line NailSpacing="150">
+                         <EndPoint Z="0.0009999999988980133" X="5027.500001425647" Y="2758.000000056717" />
+                    </Line>
+               </Contour>
+          </NailContour>
+     </Processings>
+</Layer>
+</Layers>
+<Elements>
+<Element OrderNumber="0" Count="1" ElementNumber="IW 108" Designation="Wand IW 108" Length="6692.500000751828" Height="120.0000011015" Width="2847.999999999997" SingleMemberNumber="3000634" >
+     <Transformations>
+          <Transformation GUID="{8CA9B428-FB2F-40A9-921F-E294D1A43AB2}">
+               <Position>
+                    <ReferencePoint Z="3513.000000000034" X="12352.50000132703" Y="294.9999999999903" />
+                    <XVector Z="-2.71795204085396e-016" X="1.902566428597772e-015" Y="1" />
+                    <YVector Z="-5.171084307467545e-031" X="-1" Y="1.902566428597772e-015" />
+               </Position>
+          </Transformation>
+     </Transformations>
+     <LayerRefs>
+          <LayerRef GUID="{87F5902F-8C97-42B5-A4CF-5D56B48E44CB}">
+               <Position>
+                    <ReferencePoint Z="0" X="0" Y="0" />
+                    <XVector Z="0" X="1" Y="0" />
+                    <YVector Z="0" X="0" Y="1" />
+               </Position>
+          </LayerRef>
+          <LayerRef GUID="{C57BAB32-49B7-42F3-BFD9-30CDEE7D8958}">
+               <Position>
+                    <ReferencePoint Z="4.999999943276184" X="14.99999987686587" Y="-14.99999849640878" />
+                    <XVector Z="0" X="1" Y="0" />
+                    <YVector Z="0" X="0" Y="1" />
+               </Position>
+          </LayerRef>
+     </LayerRefs>
+</Element>
+</Elements>
+</Composites>
+</Project>
+</BTLx>
